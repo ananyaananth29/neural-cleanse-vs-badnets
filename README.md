@@ -36,7 +36,7 @@
 ---
 
 ## 🧑‍💻 Author
-**[Your Name]**  
+**Ananya Ananth**  
 Graduate Student – Machine Learning Security  
-University of [Your University Name]  
+University of Utah 
 Course: CS 6958 / CS 4960 – Fall 2025  
