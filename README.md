@@ -29,10 +29,12 @@ The project demonstrates two key concepts in machine learning security:
 - **Defense model:** Neural Cleanse using trigger reverse-engineering  
 
 ### Directory Structure
-├── HW2.ipynb # Jupyter notebook with full implementation
-├── homework2.docx # Assignment description
+```
+├── Instructions.ipynb # Jupyter notebook with full implementation
+├── Solution.docx # Assignment description
 ├── /models # Saved model weights during training
 └── /data # MNIST dataset (auto-downloaded by PyTorch)
+```
 ---
 
 ## 🚀 Results Summary
