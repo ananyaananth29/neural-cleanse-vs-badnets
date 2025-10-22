@@ -1,4 +1,38 @@
+# Neural Cleanse vs BadNets – Backdoor Attack and Defense on MNIST
 
+This repository contains my implementation of **BadNets** and **Neural Cleanse** for the **CS 6958 / CS 4960 – Machine Learning Security (Fall 2025)** course assignment.  
+The project explores both the creation and detection of **backdoor attacks** in neural networks using the **MNIST dataset**.
+
+---
+
+## 🧩 Project Overview
+
+The project demonstrates two key concepts in machine learning security:
+
+1. **Backdoor Attack (BadNets)**
+   - Injects a small white 3×3 trigger patch into training images.
+   - Forces the model to misclassify any image containing the trigger as a specific target label (label `0`).
+   - Evaluates the model’s performance on both clean and poisoned datasets.
+
+2. **Backdoor Detection (Neural Cleanse)**
+   - Implements a defense strategy that reverse-engineers potential triggers for each output class.
+   - Uses **mask** and **pattern** optimization guided by cross-entropy loss and L1 regularization.
+   - Applies **Median Absolute Deviation (MAD)** analysis to detect anomalous (potentially backdoored) target classes.
+
+---
+
+## ⚙️ Implementation Details
+
+- **Framework:** PyTorch  
+- **Dataset:** MNIST (handwritten digits)  
+- **Attack model:** CNN trained on 10% poisoned data  
+- **Defense model:** Neural Cleanse using trigger reverse-engineering  
+
+### Directory Structure
+├── HW2.ipynb # Jupyter notebook with full implementation
+├── homework2.docx # Assignment description
+├── /models # Saved model weights during training
+└── /data # MNIST dataset (auto-downloaded by PyTorch)
 ---
 
 ## 🚀 Results Summary
