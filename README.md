@@ -16,15 +16,7 @@
 
 **Example: BadNets attack**
 
-| Clean Image | Triggered Image |
-|--------------|----------------|
-| ![clean](assets/clean_example.png) | ![triggered](assets/triggered_example.png) |
-
-**Example: Neural Cleanse recovered mask & pattern**
-
-| Recovered Mask | Recovered Pattern |
-|----------------|-------------------|
-| ![mask](assets/mask_example.png) | ![pattern](assets/pattern_example.png) |
+![output](https://github.com/ananyaananth29/neural-cleanse-vs-badnets/blob/main/output.png)
 
 ---
 
